@@ -8,4 +8,4 @@ export const pool = new Pool({
     port: process.env.POSTGRES_PORT,
     password: process.env.POSTGRES_PASSWORD,
 });
-console.log(pool);
+// console.log(pool);
